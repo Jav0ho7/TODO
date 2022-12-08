@@ -15,3 +15,75 @@
     font-weight: 600;
   }
 }
+
+.main-content{
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  gap: 100px;
+}
+
+.main-form{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: 20px;
+  padding: 20px;
+  flex-grow: 2;
+  gap: 20px;
+
+  border-radius: 5px;
+  box-shadow:  0 4px 4px rgba(black, 0.1);
+
+}
+
+.form-input{
+  border: 1px solid rgba(black, 0.1);
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  &:focus{
+    outline: 2px solid $success;
+    outline-offset: 2px;
+  }
+}
+
+.form-btn{
+  padding:5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(black, 0.1);
+}
+
+.form-textarea{
+  resize: vertical;
+  max-height: 200px;
+
+  border: 1px solid rgba(black, 0.1);
+  padding:5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  &:focus{
+    outline: 2px solid $success;
+    outline-offset: 2px;
+  }
+}
+
+.todo-list{
+  flex-grow: 8;
+  
+}
+
+.btn{
+  
+}
+
+
+
+
+
+
+
+
+
+
