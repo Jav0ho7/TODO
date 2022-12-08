@@ -76,4 +76,18 @@
 
 .todo-list {
   flex-grow: 8;
+}
+
+.btn {
+  border-radius: 7px;
+  background-color: rgb(163, 221, 113);
+  color: white;
+  padding: 5px 20px;
+  margin: 10px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.span {
+  color: rgb(69, 69, 69);
+  font-size: 20px;
 }/*# sourceMappingURL=setting.css.map */
